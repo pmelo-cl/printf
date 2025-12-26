@@ -29,9 +29,13 @@ La funcion devuelve el numero de caracteres impresos o -1 en caso de error. No d
 ## Compilación
 La compilación de este proyecto genera una libreria que puede ser usada en otros proyectos.
 Para compilar la libreria se hace uso del siguiente comando:
+        
         make
+        
 Una vez compilada se compila en un proyecto como:
+
         cc -Wall -Wextra -Werror tu_main.c ft_libft.a
+        
 ## Objetivos de Aprendizaje
 - Gestión de funciones variadicas
 - Manejo de tipo de datos y conversiones
